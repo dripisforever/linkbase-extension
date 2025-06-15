@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Linkbase (React)",
+  "version": "1.0",
+  "description": "Save current page to your Pocket-style backend.",
+  "permissions": ["tabs", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/globe-icon.png",
+      "48": "icons/globe-icon.png",
+      "128": "icons/globe-icon.png"
+    }
+  },
+  "host_permissions": [
+    "http://localhost:8000/"
+  ],
+  "icons": {
+    "16": "icons/globe-icon.png",
+    "48": "icons/globe-icon.png",
+    "128": "icons/globe-icon.png"
+  }
+}
