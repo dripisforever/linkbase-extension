@@ -27,7 +27,7 @@ export default function App() {
 
   return (
     <div style={{ maxWidth: 400, margin: "20px auto", fontFamily: "Arial, sans-serif" }}>
-      <h2>Pocket Clone</h2>
+      <h2>Linkbase</h2>
 
       <TagInput tags={tags} setTags={setTags} />
 
